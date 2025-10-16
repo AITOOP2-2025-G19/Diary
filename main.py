@@ -1,7 +1,8 @@
 from diaries.DiarySample import DiarySample
+from diaries.TKTKTDiary import TKTKTDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [DiarySample(),TKTKTDiary(), ]
 
 for d in diaries:
     print("---------------------------------")
